@@ -1,7 +1,7 @@
 {
-    "versao":  "1.2.0",
+    "versao":  "1.2.1",
     "data":  "2026-09-23",
-    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.2.0/AKCESS-Terminal-Setup-1.2.0.exe",
-    "sha256":  "A59F710FAB70150EC9F93ED890355DBD8B54B86059B7BDA10AB6399F4092AC8E",
-    "notas":  "Porta ocupada com aviso claro. MESSAGE_ERROR do Bluetooth nao atrapalha mais o envio de script. Varios audios de uma vez, um depois do outro. Botao Desconectar em vermelho. Atualizacao automatica: o AKCESS avisa quando sai versao nova e confere o instalador antes de executar."
+    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.2.1/AKCESS-Terminal-Setup-1.2.1.exe",
+    "sha256":  "0520627A4C24BC36BC7CC173721A69D2903FD803737390E5F3C7692CA9C6F3E5",
+    "notas":  "Janelas de debug e de status deixam o terminal vir para a frente quando clicado. Pausar no debug segura as linhas em vez de descarta-las e a janela mostra pausado em vez de ao vivo."
 }
