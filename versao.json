@@ -1,7 +1,7 @@
-﻿{
+{
     "versao":  "1.3.0",
     "data":  "2026-09-23",
     "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.3.0/AKCESS-Terminal-Setup-1.3.0.exe",
-    "sha256":  "7C958C910D9BBD1A5A553D325C2DA14CB372ED3E9574CF8EF1BF3500B88A3257",
+    "sha256":  "E8BF84837265154BA575936199F094A3C3E406525C00B17D32C5242816D5FB1A",
     "notas":  "Varios audios de uma vez, um depois do outro. Botao Desconectar em vermelho. Atualizacao automatica: o AKCESS avisa quando sai versao nova e confere o instalador antes de executar."
 }
