@@ -1,7 +1,7 @@
 {
-    "versao":  "1.2.2",
-    "data":  "2026-09-24",
-    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.2.2/AKCESS-Terminal-Setup-1.2.2.exe",
-    "sha256":  "E3BB2C9BEB317C4E9C0B794DD0BC3531AFB2C996398654F8FE686FBE19CF4575",
-    "notas":  "Transferencia recusada por falta de espaco e lida na hora, e o canal binario fecha mesmo quando a transferencia falha - antes o equipamento ficava mudo ate reiniciar. Senha do CLN nasce no padrao do produto (oito digitos no Virloc 06). A falha ao procurar atualizacao diz qual fonte foi consultada."
+    "versao":  "1.2.3",
+    "data":  "2026-09-25",
+    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.2.3/AKCESS-Terminal-Setup-1.2.3.exe",
+    "sha256":  "AB61CD2058B166D6E82120E04F4DEE85ACE39F4BFBE5CF46E0C20F7488F5646F",
+    "notas":  "Trava do CLN: nada sai para o equipamento enquanto a limpeza nao confirma o fim. Corrige tambem o limite de silencio que cancelava uma limpeza sadia e a leitura do aviso de fim quando ele chega colado numa linha de debug."
 }
