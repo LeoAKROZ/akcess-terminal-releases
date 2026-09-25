@@ -1,7 +1,7 @@
 {
-    "versao":  "1.2.3",
+    "versao":  "1.2.4",
     "data":  "2026-09-25",
-    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.2.3/AKCESS-Terminal-Setup-1.2.3.exe",
-    "sha256":  "AB61CD2058B166D6E82120E04F4DEE85ACE39F4BFBE5CF46E0C20F7488F5646F",
-    "notas":  "Trava do CLN: nada sai para o equipamento enquanto a limpeza nao confirma o fim. Corrige tambem o limite de silencio que cancelava uma limpeza sadia e a leitura do aviso de fim quando ele chega colado numa linha de debug."
+    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.2.4/AKCESS-Terminal-Setup-1.2.4.exe",
+    "sha256":  "30E7FA09165337AA1EE631C12F5D599B4ED4AF5827649FD49395BD4904159BE9",
+    "notas":  "Depois da atualizacao o AKCESS reabre sozinho: a entrada [Run] do instalador agora vale tambem na instalacao silenciosa, que e como a atualizacao automatica roda."
 }
