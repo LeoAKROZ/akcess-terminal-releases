@@ -1,7 +1,7 @@
 {
-    "versao":  "1.2.6",
+    "versao":  "1.2.7",
     "data":  "2026-09-29",
-    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.2.6/AKCESS-Terminal-Setup-1.2.6.exe",
-    "sha256":  "E22F7CE7649D4B0DF68E0732B2EFDB85C86442B0601F7C64A7E77B6C38C9FA44",
-    "notas":  "Corrige a tela de firmware travada depois de uma gravacao: escolher outro .SFB agora vale com a confirmacao aberta, e trocar o arquivo desfaz a confirmacao pendente. A opcao de continuar so aparece quando sobra bloco -- com todos confirmados a falha foi da ativacao em diante, e oferecer retomada ali produzia o erro resumeFromBlock igual ao total, que a tela mostrava como conexao perdida."
+    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.2.7/AKCESS-Terminal-Setup-1.2.7.exe",
+    "sha256":  "14F4A5FE764E4C08BE41DCAC6C9F4201F47EADDF059D097B84D5654D338D8E8B",
+    "notas":  "Corrige a retomada de firmware, que apagava o que ja tinha sido gravado: ela reenviava o pacote de abertura -- o registro que manda o equipamento apagar a area de FOTA -- e so entao pulava para o bloco N, deixando um buraco do 1 ao N-1. O equipamento aceitava os blocos restantes e ficava mudo na ativacao, parado em 99 por cento por quinze minutos. Agora a retomada reabre o canal com CRB e VSPG e vai direto ao bloco N. Conferido em equipamento: corte no bloco 497 de 1077, retomada, ativacao aceita e versao trocada em 2:16."
 }
