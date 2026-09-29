@@ -1,7 +1,7 @@
 {
-    "versao":  "1.2.4",
-    "data":  "2026-09-25",
-    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.2.4/AKCESS-Terminal-Setup-1.2.4.exe",
-    "sha256":  "30E7FA09165337AA1EE631C12F5D599B4ED4AF5827649FD49395BD4904159BE9",
-    "notas":  "Depois da atualizacao o AKCESS reabre sozinho: a entrada [Run] do instalador agora vale tambem na instalacao silenciosa, que e como a atualizacao automatica roda."
+    "versao":  "1.2.5",
+    "data":  "2026-09-29",
+    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.2.5/AKCESS-Terminal-Setup-1.2.5.exe",
+    "sha256":  "CEB71D898BC291D76FDF3F6DEF9844319ADBA5A47E77ED9D13E672B104ECDE8E",
+    "notas":  "Avisa na identificacao quando o equipamento perdeu o perfil de hardware (campo FT1C do QVR zerado ou em FFFF): ele responde aos comandos mas nao grava evento nem area de arquivo. Firmware interrompido agora oferece as duas saidas lado a lado, continuar do bloco N ou recomecar do inicio. Icones e barra lateral mais legiveis no tema escuro. Fechar a janela de debug pergunta se desliga o debug no equipamento (SDB00) ou se fecha so a janela. Recusa por memoria de FOTA excedida e lida na hora, sem dez reenvios."
 }
