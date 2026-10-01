@@ -1,7 +1,7 @@
 {
-    "versao":  "1.2.7",
-    "data":  "2026-09-29",
-    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.2.7/AKCESS-Terminal-Setup-1.2.7.exe",
-    "sha256":  "14F4A5FE764E4C08BE41DCAC6C9F4201F47EADDF059D097B84D5654D338D8E8B",
-    "notas":  "Corrige a retomada de firmware, que apagava o que ja tinha sido gravado: ela reenviava o pacote de abertura -- o registro que manda o equipamento apagar a area de FOTA -- e so entao pulava para o bloco N, deixando um buraco do 1 ao N-1. O equipamento aceitava os blocos restantes e ficava mudo na ativacao, parado em 99 por cento por quinze minutos. Agora a retomada reabre o canal com CRB e VSPG e vai direto ao bloco N. Conferido em equipamento: corte no bloco 497 de 1077, retomada, ativacao aceita e versao trocada em 2:16."
+    "versao":  "1.2.8",
+    "data":  "2026-10-01",
+    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.2.8/AKCESS-Terminal-Setup-1.2.8.exe",
+    "sha256":  "21191D9132A7BCA5BA1AF365BFBA441E30FEC762286AB4C1EBA5975DDA00A130",
+    "notas":  "Debug: cada janela de debug diz qual modo mostra (selo SDBnn e nome, titulo da janela comecando pelo modo); o canal que chega por dentro de outro avisa de quem esta pegando carona. A aba Conectar passa a mostrar quando um debug segue ligado no equipamento depois de fechar so a janela, com botoes para reabrir a janela e desligar (SDB00). Ajustes ganha a opcao de mostrar no terminal as linhas que nao sao frame XVM (saida de debug e o que o equipamento escreve ao ligar), desligada por padrao. Firmware: a tela diz o que esta esperando antes de esperar, em vez de ficar parada em 99%."
 }
