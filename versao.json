@@ -1,7 +1,7 @@
 {
-    "versao":  "1.2.10",
+    "versao":  "1.2.11",
     "data":  "2026-10-02",
-    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.2.10/AKCESS-Terminal-Setup-1.2.10.exe",
-    "sha256":  "A7913F8F69D62A254BA1D4F6E6C28884EDC16EF20FB556CB138983EE589C50A4",
-    "notas":  "Correcao importante: duas instancias do AKCESS no mesmo equipamento disputavam o mesmo arquivo de registro por ID e a conexao inteira caia com \u0027Object reference not set to an instance of an object\u0027, sem nem identificar o equipamento. Agora a disputa vira um aviso e a sessao segue -- o registro da sessao guarda tudo igual. Vale para serial e Bluetooth. Bluetooth: o transporte passa a negociar o MTU com o equipamento em vez de escrever sempre de 20 em 20 bytes, o que deixa a comunicacao bem mais rapida; o MTU negociado aparece no registro da sessao."
+    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.2.11/AKCESS-Terminal-Setup-1.2.11.exe",
+    "sha256":  "29580B105BA0E169821A391EBF0D49A4E0E6CE304184618FECE3D6E145CC20F5",
+    "notas":  "A identificacao passa a mostrar qual modulo Bluetooth o equipamento tem, ao lado de Produto, Serie e Firmware. Importa porque decide o que da para fazer sem cabo: o modulo BX310x fala SPP, pareia pelo Windows, vira porta COM e por ela firmware e audio funcionam igual a serial; o FC41D fala BLE e nao vira porta nenhuma. Passe o mouse sobre o campo para ver o que cada um permite. A informacao tambem vai para o registro da sessao."
 }
