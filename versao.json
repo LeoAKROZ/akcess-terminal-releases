@@ -1,7 +1,7 @@
 {
-    "versao":  "1.2.9",
-    "data":  "2026-10-01",
-    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.2.9/AKCESS-Terminal-Setup-1.2.9.exe",
-    "sha256":  "CD1330C35CF3788B68A2CAEFA4B15F8559E8A19ED5AFD7C850007CD64B9DE2FE",
-    "notas":  "Ligar um debug abre uma janela so. O equipamento despeja o canal 4BT (Wi-Fi/Bluetooth) dentro do debug do Modem, e o AKCESS abria a janela do SDB14 por conta propria; agora essas linhas ficam na janela do modo que foi ligado, traduzidas como Wi-Fi/BT. Janela de debug so nasce de um RDBnn confirmado."
+    "versao":  "1.2.10",
+    "data":  "2026-10-02",
+    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.2.10/AKCESS-Terminal-Setup-1.2.10.exe",
+    "sha256":  "A7913F8F69D62A254BA1D4F6E6C28884EDC16EF20FB556CB138983EE589C50A4",
+    "notas":  "Correcao importante: duas instancias do AKCESS no mesmo equipamento disputavam o mesmo arquivo de registro por ID e a conexao inteira caia com \u0027Object reference not set to an instance of an object\u0027, sem nem identificar o equipamento. Agora a disputa vira um aviso e a sessao segue -- o registro da sessao guarda tudo igual. Vale para serial e Bluetooth. Bluetooth: o transporte passa a negociar o MTU com o equipamento em vez de escrever sempre de 20 em 20 bytes, o que deixa a comunicacao bem mais rapida; o MTU negociado aparece no registro da sessao."
 }
