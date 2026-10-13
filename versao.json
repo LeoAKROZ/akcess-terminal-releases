@@ -1,7 +1,7 @@
 {
-    "versao":  "1.3.3",
+    "versao":  "1.3.4",
     "data":  "2026-10-13",
-    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.3.3/AKCESS-Terminal-Setup-1.3.3.exe",
-    "sha256":  "C306678DD4EA8129CBEAE5F945D885B0970E47883EE9B0B71A2A44F61A4E38C7",
-    "notas":  "Bluetooth: a lista de portas agora diz qual equipamento está pareado em cada COM — mostra \"VL6 · 01F6PTHJ\" em vez de só \"COM3\" — e deixa à vista apenas os equipamentos da linha, com um clique para ver todas de novo. A velocidade some num link Bluetooth: ela não vale nada ali, e o modo automático chegava a impedir a conexão.\n\nVL6: o CLN FULL deixava o terminal bloqueado por 15 minutos quando não havia nada para apagar. O prazo passa a ser por produto — 45 segundos no VL6. E a identificação parou de mandar o VQWF, que o VL6 não reconhece.\n\nDebug e limpeza: os dois avisos grandes no meio da tela viraram símbolos na barra do terminal, com a explicação na dica do mouse. A janela do debug ganhou um botão para desligar o debug sem fechá-la.\n\nLinha de comando: porta ocupada passa a ser avisada em todos os comandos, e o --baud agora vale também em limpar, abrir-canal, fechar-canal e sondar-bootloader."
+    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.3.4/AKCESS-Terminal-Setup-1.3.4.exe",
+    "sha256":  "BCEBC54C13B8840F95C23CFDD8A28F394ADAA4A21888FAF6F1285325C6F47EB5",
+    "notas":  "O selo Bluetooth ao lado do estado da conexao saiu. Quando a COM e um enlace pareado, o icone azul junto do nome da porta ja diz isso - na lista e no item selecionado - e o selo so repetia a informacao.\n\nA dica que estava nele passou para o proprio icone, para o aviso nao se perder: a porta e um pareamento e nao um cabo, e ela cai se o equipamento dormir ou se afastar.\n\nOs tres simbolos de Bluetooth da tela ficaram azuis. Dois ja estavam; o cinza era o botao de modo BLE no topo."
 }
