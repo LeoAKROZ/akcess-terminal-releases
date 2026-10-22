@@ -1,7 +1,7 @@
 {
-    "versao":  "1.5.0",
+    "versao":  "1.5.1",
     "data":  "2026-10-22",
-    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.5.0/AKCESS-Terminal-Setup-1.5.0.exe",
-    "sha256":  "D67950E27F677830688B1FEBDCF4D6705A7D719110B954063FBC8311C735D97B",
-    "notas":  "VIRLOC 15: reconhecido pelo AKCESS (inclusive o firmware antigo que se apresenta como VIRLOC12). Atualizacao de firmware pela USB-C: depois da gravacao a porta some por cerca de 30 s e volta - o AKCESS espera, reabre e confere a versao sozinho, sem acusar conexao perdida.\n\nTelas reorganizadas: nada mais fica por cima de nada em telas pequenas, no modo campo ou em outros idiomas. Busca (Ctrl+F) e rolagem horizontal nas janelas de debug.\n\nTerminal: botoes - e + para o tamanho da letra. As teclas de pre-comandos podem ser adicionadas e removidas (ate 3 fileiras). Os aceites do canal binario nao aparecem mais no terminal durante a gravacao.\n\nScript: botao para carregar o ultimo script embarcado; contador ou texto fora da faixa do modelo e avisado antes e recusado no embarque.\n\nFirmware .SFB: modo automatico, como no .bin. Consultas: repetir uma consulta automaticamente. Status: conteudo da memoria lido sob demanda (botao Reler conteudo). Limpeza (CLN) recusada pelo equipamento por nao ser pelo cabo agora aparece como recusa.\n"
+    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.5.1/AKCESS-Terminal-Setup-1.5.1.exe",
+    "sha256":  "7605D5A99299018540343457919E6AF51BF4BBF29F3B70ED989791F1D9DC02A2",
+    "notas":  "VIRLOC 15: a atualizacao de firmware pela USB-C nao fica mais parada em 99%. O equipamento gravava certo, mas o AKCESS podia travar ao soltar a porta antiga enquanto o equipamento reiniciava. Agora ele solta em ate 3 s, reabre a porta e confere a versao. O registro mostra o motivo de cada tentativa de reabrir.\n\nVIRLOC 06: regras da wiki por placa. A placa BR59 so recebe a 9.22; arquivo de outra linha e recusado. No modo automatico, os casos que exigem conferir a etiqueta da placa (LQ09/LQ11 abaixo de 10.74, BR59) sao sempre pulados, mesmo com \"gravar mesmo assim\" marcado. Grave esses pela atualizacao manual.\n"
 }
