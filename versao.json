@@ -1,7 +1,7 @@
 {
-    "versao":  "1.4.0",
-    "data":  "2026-10-15",
-    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.4.0/AKCESS-Terminal-Setup-1.4.0.exe",
-    "sha256":  "F0FF26C0BA0D3E33CE72A8465777D3C3766871734DF8904E0559071A5DA2D33D",
-    "notas":  "Firmware pelo ST-LINK: a aba Firmware grava arquivos .bin direto na placa pelo ST-LINK, em modo automatico, um equipamento atras do outro - sem precisar do STM32 ST-LINK Utility. Mostra cada etapa com o tempo, confere byte a byte o que gravou e recusa .bin de outro modelo antes de apagar a placa. Testado no VL08 e no VL6 (F091).\n\nStatus: memoria do equipamento - buffer e regioes de memoria (faixa e tabela com motoristas, cercas e audios), lidas sozinhas enquanto o Status monitora. Os sockets em uso ficam acima da memoria.\n\nTerminal: as consultas automaticas do Status nao aparecem mais no filtro manual.\n\nAba CAN: mapa de bytes, mascara alteravel, conversao e listagem de PGNs do barramento."
+    "versao":  "1.5.0",
+    "data":  "2026-10-22",
+    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.5.0/AKCESS-Terminal-Setup-1.5.0.exe",
+    "sha256":  "D67950E27F677830688B1FEBDCF4D6705A7D719110B954063FBC8311C735D97B",
+    "notas":  "VIRLOC 15: reconhecido pelo AKCESS (inclusive o firmware antigo que se apresenta como VIRLOC12). Atualizacao de firmware pela USB-C: depois da gravacao a porta some por cerca de 30 s e volta - o AKCESS espera, reabre e confere a versao sozinho, sem acusar conexao perdida.\n\nTelas reorganizadas: nada mais fica por cima de nada em telas pequenas, no modo campo ou em outros idiomas. Busca (Ctrl+F) e rolagem horizontal nas janelas de debug.\n\nTerminal: botoes - e + para o tamanho da letra. As teclas de pre-comandos podem ser adicionadas e removidas (ate 3 fileiras). Os aceites do canal binario nao aparecem mais no terminal durante a gravacao.\n\nScript: botao para carregar o ultimo script embarcado; contador ou texto fora da faixa do modelo e avisado antes e recusado no embarque.\n\nFirmware .SFB: modo automatico, como no .bin. Consultas: repetir uma consulta automaticamente. Status: conteudo da memoria lido sob demanda (botao Reler conteudo). Limpeza (CLN) recusada pelo equipamento por nao ser pelo cabo agora aparece como recusa.\n"
 }
