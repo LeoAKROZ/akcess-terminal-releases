@@ -1,7 +1,7 @@
 {
-    "versao":  "1.5.3",
-    "data":  "2026-10-22",
-    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.5.3/AKCESS-Terminal-Setup-1.5.3.exe",
-    "sha256":  "7228A888F4D4EAB6C1262A567A55C9AD2C2D96E23AD24CAE2BBB0BE3541063F3",
-    "notas":  "Simulador de veículo na aba CAN; Status com \u0027Organizar quadros\u0027 e CAN só leitura com ícones; dicionário XVM só com os comandos do equipamento conectado e configurações com vários comandos em sequência; GGFC mostra o comando em andamento."
+    "versao":  "1.5.4",
+    "data":  "2026-10-23",
+    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.5.4/AKCESS-Terminal-Setup-1.5.4.exe",
+    "sha256":  "A2DB09EBAE80BC881EAD19D571962640C492AE9446CBC01AF88301F09F83CECD",
+    "notas":  "Gerar script do equipamento (aba Script): lê a configuração presente no equipamento (conectividade, Wi-Fi, servidores, memória, sleep, ignição, eventos, disparadores, reportes, flags, contadores, filtros CAN com conversão, matrículas e cercas) e grava um .xvm para embarcar em outro equipamento. Só faz consultas, não grava nada no equipamento lido."
 }
