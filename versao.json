@@ -1,7 +1,7 @@
 {
-    "versao":  "1.5.5",
-    "data":  "2026-11-19",
-    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.5.5/AKCESS-Terminal-Setup-1.5.5.exe",
-    "sha256":  "264C19099C8A55E3B33D454A9A520DD083D6E800002E9EA65EC37092AEF54B69",
-    "notas":  "Status mostra \u0027desativado\u0027 nos módulos desligados pelo VSLP; a lista do Bluetooth separa equipamentos de mesmo nome pelo fim do endereço; CLN parcial (ex.: CLN0000_CAN) não trava mais o terminal."
+    "versao":  "1.5.6",
+    "data":  "2026-11-23",
+    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.5.6/AKCESS-Terminal-Setup-1.5.6.exe",
+    "sha256":  "07E8B84B7BC1AA3A59FA42896CB98109B4734E49131276819A8DB5203E692535",
+    "notas":  "- Ajustes: o modo campo saiu.\n- Ajustes, Aparência: o tema pode seguir o do Windows, há sete cores de destaque e o tamanho da interface vai de 90% a 120%.\n- Depois de uma atualização, o AKCESS mostra o que mudou na versão nova. Para ver de novo, use Ajustes › Sobre › Novidades.\n- Registro: tudo fica organizado por equipamento, nas abas Comunicação, Debug e Conexões. A aba Conexões mostra cada vez que o AKCESS se conectou ao equipamento. \"Mostrar arquivo\" abre o Explorer já no arquivo, e não é mais preciso procurar pasta. O \"Pacote para o suporte\" junta tudo do equipamento escolhido num .zip, mesmo sem estar conectado."
 }
