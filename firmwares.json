@@ -1,0 +1,107 @@
+{
+    "atualizado":  "2026-11-24",
+    "firmwares":  [
+                      {
+                          "produto":  "Virloc08",
+                          "versao":  "160B25",
+                          "arquivo":  "VL8_160B25.SFB",
+                          "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/firmwares/VL8_160B25.SFB",
+                          "sha256":  "C99276DB732376FBDAED3462D008DF4C100BC2F754CDE9DB4272C28900D0E53B",
+                          "bytes":  560584,
+                          "canal":  "producao"
+                      },
+                      {
+                          "produto":  "Virloc15",
+                          "versao":  "161A11",
+                          "arquivo":  "VL15_161A11.SFB",
+                          "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/firmwares/VL15_161A11.SFB",
+                          "sha256":  "B1233B09960491441C0F1CE9916D60268247776D9FECFD3D84E6B36D6D23A055",
+                          "bytes":  598544,
+                          "canal":  "teste"
+                      },
+                      {
+                          "produto":  "Vircom07",
+                          "versao":  "160B36",
+                          "arquivo":  "VC781_160B36.SFB",
+                          "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/firmwares/VC781_160B36.SFB",
+                          "sha256":  "B4D174471C18DCD04F022268D83DB225B9968F9817620A94F1E1689FB6042A68",
+                          "bytes":  576184,
+                          "canal":  "producao"
+                      },
+                      {
+                          "produto":  "VCone",
+                          "versao":  "159B35",
+                          "arquivo":  "VCE_159B35.SFB",
+                          "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/firmwares/VCE_159B35.SFB",
+                          "sha256":  "F2A411663F8CEEF58E76C37A244D6FBDC5D42C4AD361B210E08BDA6C2C6392BE",
+                          "bytes":  563184,
+                          "canal":  "producao",
+                          "variante":  "placa 108",
+                          "placas":  [
+                                         "BR108"
+                                     ]
+                      },
+                      {
+                          "produto":  "VCone",
+                          "versao":  "160B25",
+                          "arquivo":  "VCE_160B25.SFB",
+                          "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/firmwares/VCE_160B25.SFB",
+                          "sha256":  "0BA1DC110CB0B4B9C814DB7899B3DD17DA22C5366FECF79BC3108D17E5C628F3",
+                          "bytes":  579304,
+                          "canal":  "producao",
+                          "variante":  "placa 109",
+                          "placas":  [
+                                         "BR109"
+                                     ]
+                      },
+                      {
+                          "produto":  "Virloc06",
+                          "versao":  "10.08",
+                          "arquivo":  "VL06_F91_10.08_VCNV659A.SFB",
+                          "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/firmwares/VL06_F91_10.08_VCNV659A.SFB",
+                          "sha256":  "4ECC613858319672AA0D4C24E833682A9898FADA480756672679C892F8BC97F9",
+                          "bytes":  146664,
+                          "canal":  "producao",
+                          "variante":  "micro F91 · BR60/BR61",
+                          "micro":  "F91",
+                          "placas":  [
+                                         "BR60",
+                                         "BR61"
+                                     ]
+                      },
+                      {
+                          "produto":  "Virloc06",
+                          "versao":  "10.77",
+                          "arquivo":  "VL06_L48_10.77_VL61077.SFB",
+                          "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/firmwares/VL06_L48_10.77_VL61077.SFB",
+                          "sha256":  "9762B0670D27CE0FF7AF8B9309DAB0AE3C16207B846DF5576459B3E41E45E35D",
+                          "bytes":  170064,
+                          "canal":  "producao",
+                          "variante":  "micro L48",
+                          "micro":  "L48"
+                      },
+                      {
+                          "produto":  "Virloc06",
+                          "versao":  "9.22",
+                          "arquivo":  "VL06_BR59_9.22_VCNV6599.SFB",
+                          "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/firmwares/VL06_BR59_9.22_VCNV6599.SFB",
+                          "sha256":  "7DB165B0D91FCA4A3A327D54D7A4E7D57B4B1509D736891FAF764B884436DB07",
+                          "bytes":  138344,
+                          "canal":  "producao",
+                          "variante":  "placa BR59",
+                          "micro":  "F91",
+                          "placas":  [
+                                         "BR59"
+                                     ]
+                      },
+                      {
+                          "produto":  "GatewayCan",
+                          "versao":  "10.28",
+                          "arquivo":  "CGW11028.SFB",
+                          "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/firmwares/CGW11028.SFB",
+                          "sha256":  "236195D9052E3B8C0C37CAB1EBDC7B696C60D47D647F0F9B21B1D161DBF7C304",
+                          "bytes":  115984,
+                          "canal":  "producao"
+                      }
+                  ]
+}
