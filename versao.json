@@ -1,7 +1,7 @@
 {
-    "versao":  "1.5.7",
-    "data":  "2026-11-24",
-    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.5.7/AKCESS-Terminal-Setup-1.5.7.exe",
-    "sha256":  "5D2660355AE115D7B77F7CD3057F9F4EBE2BC0452E8A5A0C3A1F537F7D658046",
-    "notas":  "- Firmware: o botão \"Usar a última versão\" baixa o firmware publicado pela engenharia para o equipamento conectado e deixa pronto para gravar. O quadro diz se há versão nova. \"Ver todas\" mostra a última versão de todos os equipamentos, mesmo sem nenhum conectado. O que já foi baixado funciona sem internet."
+    "versao":  "1.5.8",
+    "data":  "2026-11-25",
+    "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/v1.5.8/AKCESS-Terminal-Setup-1.5.8.exe",
+    "sha256":  "A16A0E2B6DFFEED04D622523F376720A7F66883E50205E648EE60906F3E076EB",
+    "notas":  "- Firmware: com um equipamento conectado, o AKCESS pergunta se gostaria de atualizar para a última versão de produção dele. A pergunta fica abaixo do modo automático e só baixa o arquivo; gravar continua em \"Atualizar firmware\".\n- Conectado por Bluetooth (BLE), as telas de Firmware e de Áudio avisam antes de embarcar que a gravação deve falhar e que é preciso usar o cabo.\n- Conectar: produto, série, ID e firmware aparecem só na faixa de cima."
 }
