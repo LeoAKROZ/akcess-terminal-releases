@@ -1,5 +1,5 @@
 {
-    "atualizado":  "2026-11-24",
+    "atualizado":  "2026-11-25",
     "firmwares":  [
                       {
                           "produto":  "Virloc08",
@@ -8,6 +8,15 @@
                           "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/firmwares/VL8_160B25.SFB",
                           "sha256":  "C99276DB732376FBDAED3462D008DF4C100BC2F754CDE9DB4272C28900D0E53B",
                           "bytes":  560584,
+                          "canal":  "producao"
+                      },
+                      {
+                          "produto":  "Virloc12",
+                          "versao":  "160B25",
+                          "arquivo":  "VL12_160B25.SFB",
+                          "url":  "https://github.com/LeoAKROZ/akcess-terminal-releases/releases/download/firmwares/VL12_160B25.SFB",
+                          "sha256":  "F6AE5BB334DFEE32DF2362454D6A191ACAAD220616E819A7AD42332DB3222E06",
+                          "bytes":  563704,
                           "canal":  "producao"
                       },
                       {
